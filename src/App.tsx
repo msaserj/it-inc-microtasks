@@ -4,23 +4,40 @@ import {Header} from "./components/Header";
 import {Body} from "./components/Body";
 import {Footer} from "./components/Footer";
 import {carsType, TopCars} from "./components/TopCars";
-
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom";
 
 
 function App() {
-    const topCars: Array<carsType>  = [
+    const topCars: Array<carsType> = [
         {manufacturer: 'BMW', model: 'm5cs'},
         {manufacturer: 'Mercedes', model: 'e63s'},
         {manufacturer: 'Audi', model: 'rs6'}
     ]
 
+
     return (
+
+    <BrowserRouter >
         <div className="App">
-            <Header titleForHeader={"New Header"}/>
-            <Body titleForBody={"New Body"}/>
-            <TopCars cars={topCars}/>
+            <Header titleForHeader={"New Header"} />
+            <div>
+                <Routes>
+                    <Route path="/" element={<Body  titleForBody={"New Body"}/>} />
+                    <Route path="/topcars" element={<TopCars  cars={topCars}/>} />
+                    {/*<Route path="invoices" element={<Invoices />} />*/}
+                </Routes>
+                {/*<Body titleForBody={"New Body"}/>*/}
+            </div>
             <Footer titleForFooter={"New Footer"}/>
         </div>
+
+
+    </BrowserRouter>
+
     );
 }
 
