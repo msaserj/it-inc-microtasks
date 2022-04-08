@@ -1,5 +1,5 @@
 import React from "react";
-import {NewComponent} from "./NewComponent";
+
 
 type BodyType = {
     titleForBody: string

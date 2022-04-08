@@ -1,0 +1,26 @@
+.color {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.color th, .color td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+
+.color th, .color td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+.color td {
+    background: #D8E6F3;
+}
+
+.color th:first-child, .color td:first-child {
+    text-align: left;
+}
