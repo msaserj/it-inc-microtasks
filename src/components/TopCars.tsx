@@ -23,7 +23,8 @@ export const TopCars = (props: PropsType) => {
                 {
                     props.cars.map((t, index) => {
                         return (
-                            <tr>
+                          //  обязательно key, необходимо для virtualdom
+                            <tr key={index}>
                                 <td>{index + 1}</td>
                                 <td>{t.manufacturer}</td>
                                 <td>{t.model}</td>

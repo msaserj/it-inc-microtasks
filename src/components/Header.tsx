@@ -28,7 +28,7 @@ export const Header = (props: HeaderType) => {
 
             <NavLink to="/" className={setActive}>Body</NavLink>
             <NavLink to="/topcars" className={setActive}>TopCars</NavLink>
-            <NavLink to={"/money"} className={setActive}>Money</NavLink>
+            <NavLink to={"/buttons"} className={setActive}>Buttons</NavLink>
             <div>
                 <button onClick={(event) => onClickHandler("VASYA")}>MyButton01</button>
                 <button onClick={(event) =>onClickHandler("VANYA")}>MyButton02</button>

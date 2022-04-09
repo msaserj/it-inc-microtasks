@@ -9,6 +9,8 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
+import {Buttons} from "./components/Buttons";
+
 
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Body  titleForBody={"New Body"}/>} />
                     <Route path="/topcars" element={<TopCars  cars={topCars}/>} />
-                    {/*<Route path="invoices" element={<Invoices />} />*/}
+                    <Route path="/buttons" element={<Buttons />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>
