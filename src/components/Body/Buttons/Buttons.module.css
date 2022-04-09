@@ -1,0 +1,22 @@
+.buttonBlock {
+    margin: 20px;
+}
+
+button{
+
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: #0f73ab;
+    background-color:#D8E6F3;
+    text-align:center;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color:#AFCDE7;
+}

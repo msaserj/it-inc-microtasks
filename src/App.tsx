@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./components/Header";
-import {Body} from "./components/Body";
-import {Footer} from "./components/Footer";
-import {carsType, TopCars} from "./components/TopCars";
+import {Header} from "./components/Header/Header";
+import {Body} from "./components/Body/Body";
+import {Footer} from "./components/Footer/Footer";
+import {carsType, TopCars} from "./components/Body/TopCars/TopCars";
 import {
     BrowserRouter,
     Routes,
     Route,
 } from "react-router-dom";
-import {Buttons} from "./components/Buttons";
+import {Buttons} from "./components/Body/Buttons/Buttons";
 
 
 
