@@ -1,9 +1,11 @@
+
 .color {
-    margin-top: 20px;
+    margin: 20px auto;
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
     font-size: 14px;
     border-collapse: collapse;
     text-align: center;
+
 }
 
 .color th, .color td:first-child {
