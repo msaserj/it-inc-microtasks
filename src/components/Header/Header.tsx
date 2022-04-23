@@ -21,6 +21,7 @@ export const Header = (props: HeaderType) => {
             <NavLink to="/topcars" className={setActive}>TopCars</NavLink>
             <NavLink to={"/buttons"} className={setActive}>Buttons</NavLink>
             <NavLink to={"/counter"} className={setActive}>Counter</NavLink>
+            <NavLink to={"/babki"} className={setActive}>Babki</NavLink>
 
         </nav>
     )

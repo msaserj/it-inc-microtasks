@@ -11,6 +11,8 @@ import {
 } from "react-router-dom";
 import {Buttons} from "./components/Body/Buttons/Buttons";
 import {Counter} from "./components/Body/useState/Counter";
+import Babki from "./components/Body/Babki/Babki";
+
 
 
 
@@ -20,7 +22,6 @@ function App() {
         {manufacturer: 'Mercedes', model: 'e63s'},
         {manufacturer: 'Audi', model: 'rs6'}
     ]
-
 
     return (
 
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/topcars" element={<TopCars  cars={topCars}/>} />
                     <Route path="/buttons" element={<Buttons />} />
                     <Route path="/counter" element={<Counter />} />
+                    <Route path="/babki" element={<Babki />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>
