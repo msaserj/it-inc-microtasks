@@ -10,6 +10,7 @@ import {
     Route,
 } from "react-router-dom";
 import {Buttons} from "./components/Body/Buttons/Buttons";
+import {Counter} from "./components/Body/useState/Counter";
 
 
 
@@ -31,6 +32,7 @@ function App() {
                     <Route path="/" element={<Body  titleForBody={"New Body"}/>} />
                     <Route path="/topcars" element={<TopCars  cars={topCars}/>} />
                     <Route path="/buttons" element={<Buttons />} />
+                    <Route path="/counter" element={<Counter />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>

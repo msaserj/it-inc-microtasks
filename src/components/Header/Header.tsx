@@ -20,6 +20,7 @@ export const Header = (props: HeaderType) => {
             <NavLink to="/" className={setActive}>Body</NavLink>
             <NavLink to="/topcars" className={setActive}>TopCars</NavLink>
             <NavLink to={"/buttons"} className={setActive}>Buttons</NavLink>
+            <NavLink to={"/counter"} className={setActive}>Counter</NavLink>
 
         </nav>
     )
