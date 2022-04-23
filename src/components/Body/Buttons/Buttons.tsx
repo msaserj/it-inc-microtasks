@@ -20,12 +20,14 @@ export const Buttons = () => {
     return (
         <div >
             <div className={css.buttonBlock}>
+                {/*Components*/}
                 <Button name={"Button01"} callBack={() => Button01Foo('I`m Vasya', 21)}/>
                 <Button name={"Button02"} callBack={() => Button02Foo('I`m Vanya', 22)}/>
             </div>
             <div className={css.buttonBlock}>
-                <button onClick={(event) => onClickHandler01("Peter")}>MyButton01</button>
-                <button onClick={(event) =>onClickHandler01("Alex")}>MyButton02</button>
+                {/*Buttons*/}
+                <button onClick={() => onClickHandler01("Peter")}>MyButton01</button>
+                <button onClick={() =>onClickHandler01("Alex")}>MyButton02</button>
             </div>
         </div>
     )
