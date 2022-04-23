@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import {Button} from "../Buttons/Button";
 
 
+type FilterType = "All" | "Dollars" | "Rubls"
+
 export const Babki = () => {
 
     const [money, setMoney] = useState([
@@ -15,7 +17,7 @@ export const Babki = () => {
         {banknots: 'RUBLS', value: 50, number: ' v1234567890'},
     ])
 
-    const [filter, setFilter] = useState("all")
+    const [filter, setFilter] = useState<FilterType>("All")
 
     let currentMoney = money
     if(filter === "Dollars") {
@@ -24,7 +26,7 @@ export const Babki = () => {
         currentMoney = money.filter(filteredMoney => filteredMoney.banknots === "RUBLS")
     }
 
-    const onClickFilterHandler = (nameButton: string) => {
+    const onClickFilterHandler = (nameButton: FilterType) => {
         setFilter(nameButton)
     }
 
@@ -41,7 +43,7 @@ export const Babki = () => {
                     )
                 })}
             </ul>
-            <Button name={"All"} callBack={() => onClickFilterHandler("all")}/>
+            <Button name={"All"} callBack={() => onClickFilterHandler("All")}/>
             <Button name={"Rubls"} callBack={() => onClickFilterHandler("Rubls")}/>
             <Button name={"Dollars"} callBack={() => onClickFilterHandler("Dollars")}/>
         </div>
