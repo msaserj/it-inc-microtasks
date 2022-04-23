@@ -20,6 +20,7 @@ export const Buttons = () => {
     return (
         <div >
             <div className={css.buttonBlock}>
+                <h3>See console</h3>
                 {/*Components*/}
                 <Button name={"Button01"} callBack={() => Button01Foo('I`m Vasya', 21)}/>
                 <Button name={"Button02"} callBack={() => Button02Foo('I`m Vanya', 22)}/>
