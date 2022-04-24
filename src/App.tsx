@@ -11,7 +11,8 @@ import {
 } from "react-router-dom";
 import {Buttons} from "./components/Body/Buttons/Buttons";
 import {Counter} from "./components/Body/useState/Counter";
-import Babki from "./components/Body/Babki/Babki";
+import {Babki} from "./components/Body/Babki/Babki";
+import {Input} from "./components/Body/Input/Input";
 
 
 
@@ -35,6 +36,7 @@ function App() {
                     <Route path="/buttons" element={<Buttons />} />
                     <Route path="/counter" element={<Counter />} />
                     <Route path="/babki" element={<Babki />} />
+                    <Route path="/input" element={<Input />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>
