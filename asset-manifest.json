@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/it-incubator-microtasks/static/css/main.0d0c0868.css",
+    "main.js": "/it-incubator-microtasks/static/js/main.d65f7706.js",
+    "index.html": "/it-incubator-microtasks/index.html",
+    "main.0d0c0868.css.map": "/it-incubator-microtasks/static/css/main.0d0c0868.css.map",
+    "main.d65f7706.js.map": "/it-incubator-microtasks/static/js/main.d65f7706.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d0c0868.css",
+    "static/js/main.d65f7706.js"
+  ]
+}
