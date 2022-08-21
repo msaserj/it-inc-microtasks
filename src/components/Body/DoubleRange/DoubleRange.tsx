@@ -1,6 +1,9 @@
 import React, {useState} from 'react';
 
+import 'rc-slider/assets/index.css';
+
 import {TwoThumbInputRange} from "react-two-thumb-input-range";
+import CarSlider from "./DoubleRangeTwo";
 
 
 export const DoubleRange = () => {
@@ -13,6 +16,7 @@ export const DoubleRange = () => {
             <div>
                 <h2>InputRange</h2>
                 <TwoThumbInputRange onChange={onValueChange} values={value} min={1000} max={10000} />
+                <CarSlider/>
             </div>
     );
 };
