@@ -23,6 +23,7 @@ export const Header = (props: HeaderType) => {
             <NavLink to={"/counter"} className={setActive}>Counter</NavLink>
             <NavLink to={"/babki"} className={setActive}>Babki</NavLink>
             <NavLink to={"/input"} className={setActive}>Input</NavLink>
+            <NavLink to={"/doublerange"} className={setActive}>DoubleRange</NavLink>
 
         </nav>
     )

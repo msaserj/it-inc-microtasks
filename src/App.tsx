@@ -13,6 +13,7 @@ import {Buttons} from "./components/Body/Buttons/Buttons";
 import {Counter} from "./components/Body/useState/Counter";
 import {Babki} from "./components/Body/Babki/Babki";
 import {Input} from "./components/Body/Input/Input";
+import {DoubleRange} from "./components/Body/DoubleRange/Input";
 
 
 
@@ -37,6 +38,7 @@ function App() {
                     <Route path="/counter" element={<Counter />} />
                     <Route path="/babki" element={<Babki />} />
                     <Route path="/input" element={<Input />} />
+                    <Route path="/doublerange" element={<DoubleRange />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>
