@@ -5,9 +5,7 @@ import "rc-slider/assets/index.css";
 
 export const DoubleRangeTwo = () => {
     const sliderValues = [0, 100]
-
     const [valueRange, setValueRange] = useState<any>(sliderValues)
-
     const handleChange = (sliderValues: any) => {
         setValueRange(sliderValues);
     };
@@ -18,7 +16,6 @@ export const DoubleRangeTwo = () => {
                 <p>Eritrean Nakfa:</p>
                 <p>
                     {valueRange[0]}Nfk - {valueRange[1]}Nfk
-
                 </p>
             </div>
             <div className="mka__range-btn-align">
