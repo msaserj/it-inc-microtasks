@@ -32,13 +32,13 @@ function App() {
             <Header titleForHeader={"New Header"} />
             <div>
                 <Routes>
-                    <Route path="/" element={<Body  titleForBody={"New Body"}/>} />
-                    <Route path="/topcars" element={<TopCars  cars={topCars}/>} />
-                    <Route path="/buttons" element={<Buttons />} />
-                    <Route path="/counter" element={<Counter />} />
-                    <Route path="/babki" element={<Babki />} />
-                    <Route path="/input" element={<Input />} />
-                    <Route path="/doublerange" element={<DoubleRange />} />
+                    <Route path="/it-incubator-microtasks" element={<Body  titleForBody={"New Body"}/>} />
+                    <Route path="/it-incubator-microtasks/topcars" element={<TopCars  cars={topCars}/>} />
+                    <Route path="/it-incubator-microtasks/buttons" element={<Buttons />} />
+                    <Route path="/it-incubator-microtasks/counter" element={<Counter />} />
+                    <Route path="/it-incubator-microtasks/babki" element={<Babki />} />
+                    <Route path="/it-incubator-microtasks/input" element={<Input />} />
+                    <Route path="/it-incubator-microtasks/doublerange" element={<DoubleRange />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>
