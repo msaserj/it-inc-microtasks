@@ -17,13 +17,13 @@ export const Header = (props: HeaderType) => {
         <nav className={css.nav}>
             <h1>{props.titleForHeader}</h1>
 
-            <NavLink to="/" className={setActive}>Body</NavLink>
-            <NavLink to="/topcars" className={setActive}>TopCars</NavLink>
-            <NavLink to={"/buttons"} className={setActive}>Buttons</NavLink>
-            <NavLink to={"/counter"} className={setActive}>Counter</NavLink>
-            <NavLink to={"/babki"} className={setActive}>Babki</NavLink>
-            <NavLink to={"/input"} className={setActive}>Input</NavLink>
-            <NavLink to={"/doublerange"} className={setActive}>DoubleRange</NavLink>
+            <NavLink to="/it-incubator-microtasks" className={setActive}>Body</NavLink>
+            <NavLink to="/it-incubator-microtasks/topcars" className={setActive}>TopCars</NavLink>
+            <NavLink to={"/it-incubator-microtasks/buttons"} className={setActive}>Buttons</NavLink>
+            <NavLink to={"/it-incubator-microtasks/counter"} className={setActive}>Counter</NavLink>
+            <NavLink to={"/it-incubator-microtasks/babki"} className={setActive}>Babki</NavLink>
+            <NavLink to={"/it-incubator-microtasks/input"} className={setActive}>Input</NavLink>
+            <NavLink to={"/it-incubator-microtasks/doublerange"} className={setActive}>DoubleRange</NavLink>
 
         </nav>
     )

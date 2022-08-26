@@ -25,8 +25,8 @@ export const DoubleRangeTwo = () => {
                         range
                         allowCross={false}
                         marks={{
-                            0: `$ 0`,
-                            100: `$ 100`
+                            0: `Nfk 0`,
+                            100: `Nfk 1000`
                         }}
                         min={0}
                         max={100}
