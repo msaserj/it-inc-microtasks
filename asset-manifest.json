@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/it-incubator-microtasks/static/css/main.0d0c0868.css",
-    "main.js": "/it-incubator-microtasks/static/js/main.d65f7706.js",
+    "main.css": "/it-incubator-microtasks/static/css/main.df1b45f8.css",
+    "main.js": "/it-incubator-microtasks/static/js/main.3265144f.js",
     "index.html": "/it-incubator-microtasks/index.html",
-    "main.0d0c0868.css.map": "/it-incubator-microtasks/static/css/main.0d0c0868.css.map",
-    "main.d65f7706.js.map": "/it-incubator-microtasks/static/js/main.d65f7706.js.map"
+    "main.df1b45f8.css.map": "/it-incubator-microtasks/static/css/main.df1b45f8.css.map",
+    "main.3265144f.js.map": "/it-incubator-microtasks/static/js/main.3265144f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d0c0868.css",
-    "static/js/main.d65f7706.js"
+    "static/css/main.df1b45f8.css",
+    "static/js/main.3265144f.js"
   ]
 }
