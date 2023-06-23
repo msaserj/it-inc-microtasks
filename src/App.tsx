@@ -14,6 +14,7 @@ import {Counter} from "./components/Body/useState/Counter";
 import {Babki} from "./components/Body/Babki/Babki";
 import {Input} from "./components/Body/Input/Input";
 import {DoubleRange} from "./components/Body/DoubleRange/DoubleRange";
+import {Icons} from "./components/Body/Icons/Icons";
 
 
 
@@ -39,6 +40,7 @@ function App() {
                     <Route path="/it-incubator-microtasks/babki" element={<Babki />} />
                     <Route path="/it-incubator-microtasks/input" element={<Input />} />
                     <Route path="/it-incubator-microtasks/doublerange" element={<DoubleRange />} />
+                    <Route path="/it-incubator-microtasks/icons" element={<Icons />} />
                 </Routes>
                 {/*<Body titleForBody={"New Body"}/>*/}
             </div>

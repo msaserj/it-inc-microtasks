@@ -24,6 +24,7 @@ export const Header = (props: HeaderType) => {
             <NavLink to={"/it-incubator-microtasks/babki"} className={setActive}>Babki</NavLink>
             <NavLink to={"/it-incubator-microtasks/input"} className={setActive}>Input</NavLink>
             <NavLink to={"/it-incubator-microtasks/doublerange"} className={setActive}>DoubleRange</NavLink>
+            <NavLink to={"/it-incubator-microtasks/icons"} className={setActive}>icons</NavLink>
 
         </nav>
     )
