@@ -4,11 +4,7 @@ import {Header} from "./components/Header/Header";
 import {Body} from "./components/Body/Body";
 import {Footer} from "./components/Footer/Footer";
 import {carsType, TopCars} from "./components/Body/TopCars/TopCars";
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {Buttons} from "./components/Body/Buttons/Buttons";
 import {Counter} from "./components/Body/useState/Counter";
 import {Babki} from "./components/Body/Babki/Babki";
@@ -25,9 +21,7 @@ function App() {
         {manufacturer: 'Mercedes', model: 'e63s'},
         {manufacturer: 'Audi', model: 'rs6'}
     ]
-
     return (
-
     <BrowserRouter >
         <div className="App">
             <Header titleForHeader={"New Header"} />
@@ -42,12 +36,9 @@ function App() {
                     <Route path="/it-incubator-microtasks/doublerange" element={<DoubleRange />} />
                     <Route path="/it-incubator-microtasks/icons" element={<Icons />} />
                 </Routes>
-                {/*<Body titleForBody={"New Body"}/>*/}
             </div>
             <Footer titleForFooter={"New Footer"}/>
         </div>
-
-
     </BrowserRouter>
 
     );

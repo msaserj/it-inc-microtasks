@@ -1,11 +1,9 @@
 import React, {ReactNode} from "react";
 
-
 export type PropsType = {
     color: string
     children: ReactNode
 }
-
 
 export const IconComponent = (props: PropsType) => {
 
