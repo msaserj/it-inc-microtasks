@@ -27,14 +27,14 @@ function App() {
             <Header titleForHeader={"New Header"} />
             <div>
                 <Routes>
-                    <Route path="/it-incubator-microtasks" element={<Body  titleForBody={"New Body"}/>} />
-                    <Route path="/it-incubator-microtasks/topcars" element={<TopCars  cars={topCars}/>} />
-                    <Route path="/it-incubator-microtasks/buttons" element={<Buttons />} />
-                    <Route path="/it-incubator-microtasks/counter" element={<Counter />} />
-                    <Route path="/it-incubator-microtasks/babki" element={<Babki />} />
-                    <Route path="/it-incubator-microtasks/input" element={<Input />} />
-                    <Route path="/it-incubator-microtasks/doublerange" element={<DoubleRange />} />
-                    <Route path="/it-incubator-microtasks/icons" element={<Icons />} />
+                    <Route path="/sanbox-microtasks" element={<Body  titleForBody={"New Body"}/>} />
+                    <Route path="/sanbox-microtasks/topcars" element={<TopCars  cars={topCars}/>} />
+                    <Route path="/sanbox-microtasks/buttons" element={<Buttons />} />
+                    <Route path="/sanbox-microtasks/counter" element={<Counter />} />
+                    <Route path="/sanbox-microtasks/babki" element={<Babki />} />
+                    <Route path="/sanbox-microtasks/input" element={<Input />} />
+                    <Route path="/sanbox-microtasks/doublerange" element={<DoubleRange />} />
+                    <Route path="/sanbox-microtasks/icons" element={<Icons />} />
                 </Routes>
             </div>
             <Footer titleForFooter={"New Footer"}/>

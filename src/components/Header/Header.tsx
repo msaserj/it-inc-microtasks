@@ -17,14 +17,14 @@ export const Header = (props: HeaderType) => {
         <nav className={css.nav}>
             <h1>{props.titleForHeader}</h1>
 
-            <NavLink to="/it-incubator-microtasks" className={setActive}>Body</NavLink>
-            <NavLink to="/it-incubator-microtasks/topcars" className={setActive}>TopCars</NavLink>
-            <NavLink to={"/it-incubator-microtasks/buttons"} className={setActive}>Buttons</NavLink>
-            <NavLink to={"/it-incubator-microtasks/counter"} className={setActive}>Counter</NavLink>
-            <NavLink to={"/it-incubator-microtasks/babki"} className={setActive}>Babki</NavLink>
-            <NavLink to={"/it-incubator-microtasks/input"} className={setActive}>Input</NavLink>
-            <NavLink to={"/it-incubator-microtasks/doublerange"} className={setActive}>DoubleRange</NavLink>
-            <NavLink to={"/it-incubator-microtasks/icons"} className={setActive}>icons</NavLink>
+            <NavLink to="/sandbox-microtasks" className={setActive}>Body</NavLink>
+            <NavLink to="/sandbox-microtasks/topcars" className={setActive}>TopCars</NavLink>
+            <NavLink to="/sandbox-microtasks/buttons" className={setActive}>Buttons</NavLink>
+            <NavLink to="/sandbox-microtasks/counter" className={setActive}>Counter</NavLink>
+            <NavLink to="/sandbox-microtasks/babki" className={setActive}>Babki</NavLink>
+            <NavLink to="/sandbox-microtasks/input" className={setActive}>Input</NavLink>
+            <NavLink to="/sandbox-microtasks/doublerange" className={setActive}>DoubleRange</NavLink>
+            <NavLink to="/sandbox-microtasks/icons" className={setActive}>icons</NavLink>
 
         </nav>
     )
