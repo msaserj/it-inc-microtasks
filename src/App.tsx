@@ -27,14 +27,14 @@ function App() {
             <Header titleForHeader={"New Header"} />
             <div>
                 <Routes>
-                    <Route path="/sandbox-microtasks" element={<Body  titleForBody={"New Body"}/>} />
-                    <Route path="/sandbox-microtasks/topcars" element={<TopCars  cars={topCars}/>} />
-                    <Route path="/sandbox-microtasks/buttons" element={<Buttons />} />
-                    <Route path="/sandbox-microtasks/counter" element={<Counter />} />
-                    <Route path="/sandbox-microtasks/babki" element={<Babki />} />
-                    <Route path="/sandbox-microtasks/input" element={<Input />} />
-                    <Route path="/sandbox-microtasks/doublerange" element={<DoubleRange />} />
-                    <Route path="/sandbox-microtasks/icons" element={<Icons />} />
+                    <Route path="/" element={<Body  titleForBody={"New Body"}/>} />
+                    <Route path="/topcars" element={<TopCars  cars={topCars}/>} />
+                    <Route path="/buttons" element={<Buttons />} />
+                    <Route path="/counter" element={<Counter />} />
+                    <Route path="/babki" element={<Babki />} />
+                    <Route path="/input" element={<Input />} />
+                    <Route path="/doublerange" element={<DoubleRange />} />
+                    <Route path="/icons" element={<Icons />} />
                 </Routes>
             </div>
             <Footer titleForFooter={"New Footer"}/>
