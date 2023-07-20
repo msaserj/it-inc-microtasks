@@ -4,7 +4,7 @@ import {Header} from "./components/Header/Header";
 import {Body} from "./components/Body/Body";
 import {Footer} from "./components/Footer/Footer";
 import {carsType, TopCars} from "./components/Body/TopCars/TopCars";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
 import {Buttons} from "./components/Body/Buttons/Buttons";
 import {Counter} from "./components/Body/useState/Counter";
 import {Babki} from "./components/Body/Babki/Babki";
@@ -22,7 +22,7 @@ function App() {
         {manufacturer: 'Audi', model: 'rs6'}
     ]
     return (
-    <BrowserRouter >
+    <HashRouter >
         <div className="App">
             <Header titleForHeader={"New Header"} />
             <div>
@@ -39,7 +39,7 @@ function App() {
             </div>
             <Footer titleForFooter={"New Footer"}/>
         </div>
-    </BrowserRouter>
+    </HashRouter>
 
     );
 }
