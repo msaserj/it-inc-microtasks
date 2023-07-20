@@ -27,14 +27,14 @@ function App() {
             <Header titleForHeader={"New Header"} />
             <div>
                 <Routes>
-                    <Route path="/sanbox-microtasks" element={<Body  titleForBody={"New Body"}/>} />
-                    <Route path="/sanbox-microtasks/topcars" element={<TopCars  cars={topCars}/>} />
-                    <Route path="/sanbox-microtasks/buttons" element={<Buttons />} />
-                    <Route path="/sanbox-microtasks/counter" element={<Counter />} />
-                    <Route path="/sanbox-microtasks/babki" element={<Babki />} />
-                    <Route path="/sanbox-microtasks/input" element={<Input />} />
-                    <Route path="/sanbox-microtasks/doublerange" element={<DoubleRange />} />
-                    <Route path="/sanbox-microtasks/icons" element={<Icons />} />
+                    <Route path="/sandbox-microtasks" element={<Body  titleForBody={"New Body"}/>} />
+                    <Route path="/sandbox-microtasks/topcars" element={<TopCars  cars={topCars}/>} />
+                    <Route path="/sandbox-microtasks/buttons" element={<Buttons />} />
+                    <Route path="/sandbox-microtasks/counter" element={<Counter />} />
+                    <Route path="/sandbox-microtasks/babki" element={<Babki />} />
+                    <Route path="/sandbox-microtasks/input" element={<Input />} />
+                    <Route path="/sandbox-microtasks/doublerange" element={<DoubleRange />} />
+                    <Route path="/sandbox-microtasks/icons" element={<Icons />} />
                 </Routes>
             </div>
             <Footer titleForFooter={"New Footer"}/>
