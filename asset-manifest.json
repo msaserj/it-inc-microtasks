@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sandbox-microtasks/static/css/main.6443454a.css",
-    "main.js": "/sandbox-microtasks/static/js/main.cbfcfc4a.js",
+    "main.js": "/sandbox-microtasks/static/js/main.1fcb33cc.js",
     "index.html": "/sandbox-microtasks/index.html",
     "main.6443454a.css.map": "/sandbox-microtasks/static/css/main.6443454a.css.map",
-    "main.cbfcfc4a.js.map": "/sandbox-microtasks/static/js/main.cbfcfc4a.js.map"
+    "main.1fcb33cc.js.map": "/sandbox-microtasks/static/js/main.1fcb33cc.js.map"
   },
   "entrypoints": [
     "static/css/main.6443454a.css",
-    "static/js/main.cbfcfc4a.js"
+    "static/js/main.1fcb33cc.js"
   ]
 }
