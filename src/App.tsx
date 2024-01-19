@@ -4,7 +4,7 @@ import {Header} from "./components/Header/Header";
 import {Body} from "./components/Body/Body";
 import {Footer} from "./components/Footer/Footer";
 import {carsType, TopCars} from "./components/Body/TopCars/TopCars";
-import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import {Buttons} from "./components/Body/Buttons/Buttons";
 import {Counter} from "./components/Body/useState/Counter";
 import {Babki} from "./components/Body/Babki/Babki";
@@ -12,8 +12,6 @@ import {Input} from "./components/Body/Input/Input";
 import {DoubleRange} from "./components/Body/DoubleRange/DoubleRange";
 import {Icons} from "./components/Body/Icons/Icons";
 import {KworkCards} from "./components/Body/kwork-cards/KworkCards";
-
-
 
 
 function App() {

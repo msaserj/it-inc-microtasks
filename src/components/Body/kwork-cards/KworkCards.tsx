@@ -1,10 +1,5 @@
 import React from "react";
 import css from "./KworkCards.module.css"
-import {SiGit} from "react-icons/si";
-
-import {DiSass} from "react-icons/di";
-import {FaWordpress} from "react-icons/fa";
-import {IconComponent} from "./IconComponent/IconComponent";
 import {Kwork} from "./Kwork/Kwork";
 
 
