@@ -11,6 +11,7 @@ import {Babki} from "./components/Body/Babki/Babki";
 import {Input} from "./components/Body/Input/Input";
 import {DoubleRange} from "./components/Body/DoubleRange/DoubleRange";
 import {Icons} from "./components/Body/Icons/Icons";
+import {KworkCards} from "./components/Body/kwork-cards/KworkCards";
 
 
 
@@ -35,6 +36,7 @@ function App() {
                     <Route path="/input" element={<Input />} />
                     <Route path="/doublerange" element={<DoubleRange />} />
                     <Route path="/icons" element={<Icons />} />
+                    <Route path="/kwork-cards" element={<KworkCards />} />
                 </Routes>
             </div>
             <Footer titleForFooter={"New Footer"}/>
