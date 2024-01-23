@@ -33,15 +33,34 @@ export const KworkCards = (props: PropsType) => {
     mint: '#64ac3c',
     nginx: '#419b45',
   }
+  const content = {
+    card1: {
+      title: "Доработка и исправление вёрстки",
+      description: "WordPress"
+    },
+    card2: {
+      title: "Доработка и исправление вёрстки",
+      description: "HTML/CSS/JS"
+    },
+    card3: {
+      title: "Разработка сайта на React",
+      description: "React"
+    },
+    card4: {
+      title: "Верстка сайта по макету Figma",
+      description: "WordPress"
+    }
+  }
 
   return (
     <div className={css.mainDiv}>
       <Head/>
       <div className={css.div}>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
+        <Kwork  card={content.card1}/>
+        <Kwork  card={content.card2}/>
+        <Kwork  card={content.card3}/>
+        <Kwork  card={content.card4}/>
+
       </div>
     </div>
 

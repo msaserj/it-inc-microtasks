@@ -22,7 +22,7 @@ export const BgText: React.FC<PropsType> = ({children, link, pointer, blank, tit
     const text = textRef.current;
     let shadow = '';
 
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 10; i++) {
       shadow += (shadow ? ',' : '') + -i + 'px ' + i + 'px 0 #575569';
     }
 

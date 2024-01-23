@@ -1,0 +1,26 @@
+.nav {
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 360px;
+    background-color: rgba(33, 36, 40, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    z-index: 10;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    transform: skewY(0deg);
+    line-height: 1.2;
+    font-size: 1.4rem;
+    text-align: start;
+    color: #45a52a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+}

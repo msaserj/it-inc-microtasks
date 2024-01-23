@@ -6,26 +6,27 @@ import "@fontsource/montserrat/800.css"; // Specify weight
 import "@fontsource/montserrat/800-italic.css";
 import {BgText} from "./BgText/BgText";
 import {Blocks} from "./Blocks/Blocks";
+import {Description} from "./Description/Description";
 
 
 export type PropsType = {
-  color?: string
-  children?: ReactNode
+  card: {
+    title: string
+    description: string
+  }
 }
 
-export const Kwork = (props: PropsType) => {
+export const Kwork: React.FC<PropsType> = ({card}) => {
 
   return (
     <div className={css.kworkcontainer}>
       <div className={css.bgTextContainer} style={{position: "absolute" }}>
         <BgText children={''}/>
       </div>
-      <div style={{position: "relative", opacity: '0.9', marginRight: "-380px"}}>
+      <div className={css.content}>
+        <Description   card={card}/>
         <Blocks children={''}/>
       </div>
-
-
-      {props.children}
     </div>
   )
 }
