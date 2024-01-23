@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./KworkCards.module.css"
 import {Kwork} from "./Kwork/Kwork";
+import {Head} from "./Header/Head";
 
 
 export type PropsType = {}
@@ -35,20 +36,12 @@ export const KworkCards = (props: PropsType) => {
 
   return (
     <div className={css.mainDiv}>
+      <Head/>
       <div className={css.div}>
         <Kwork/>
         <Kwork/>
         <Kwork/>
         <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-        <Kwork/>
-
       </div>
     </div>
 

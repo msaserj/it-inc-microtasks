@@ -1,0 +1,35 @@
+
+
+.bodyBlock {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 660px;
+    background: #434150;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    color: #918fb7;
+    font-weight: 900;
+    font-size: 5em;
+    line-height: 0.9em;
+    letter-spacing: 2px;
+    text-align: center;
+    transform: rotate(-20deg) skewX(35deg);
+}
+
+.text:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    /*color: rgba(86, 76, 76, 0.6);*/
+    box-shadow: -30px 30px 10px rgba(0,0,0,0.25);
+    text-shadow: none;
+    filter: blur(8px);
+    z-index: -1;
+}
