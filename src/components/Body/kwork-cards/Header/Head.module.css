@@ -1,12 +1,21 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 1920px;
   height: 226px;
-  background: url("./code2a.jpg") no-repeat;
+  /*background: url("./code2a.jpg") no-repeat;*/
   filter: hue-rotate(50deg) brightness(80%);
+  overflow: hidden;
+}
+.containerBlock {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  transform: rotate(-5deg) skewX(15deg);
+  width: 120%;
 }
 
 

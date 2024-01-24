@@ -1,8 +1,14 @@
 .nav {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 20px;
     border-radius: 10px;
-    width: 350px;
-    height: 360px;
+    width: 410px;
+    /*margin-top: 40px;*/
+    /*align-self: flex-start;*/
+    /*height: 360px;*/
     background-color: rgba(33, 36, 40, 0.5);
     backdrop-filter: blur(5px);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
@@ -11,9 +17,10 @@
     border: 1px solid rgba(255, 255, 255, 0.33);
     transform: skewY(0deg);
     line-height: 1.2;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-align: start;
-    color: #45a52a;
+    color: #04b70a;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -23,4 +30,9 @@ h4,
 h5 {
     padding: 0;
     margin: 0;
+    text-transform: uppercase;
+}
+p {
+    font-style: italic;
+    font-family: 'Poppins', sans-serif
 }

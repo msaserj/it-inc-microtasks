@@ -1,0 +1,48 @@
+.block {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: rgba(45,45,45,1);
+  overflow: hidden;
+  transform: rotate(calc(90deg * var(--i)));
+  z-index: 10;
+
+}
+
+.block::before {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: radial-gradient(var(--clr), transparent, transparent);
+  animation: animate 3.5s linear infinite;
+  top: 35px;
+  left: 35px;
+  /*z-index: 10;*/
+}
+.block::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: rgba(45,45,45,0.9);
+  /*z-index: 10;*/
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-70px, -70px);
+  }
+  25% {
+    transform: translate(0px, -70px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  75% {
+    transform: translate(-70px, 0px);
+  }
+  100% {
+    transform: translate(-70px, -70px);
+  }
+}

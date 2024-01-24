@@ -3,25 +3,18 @@ import css from './LinkButton.module.css';
 
 type PropsType = {
   children: ReactNode;
-  link?: string;
-  pointer?: boolean;
-  blank?: boolean;
   title?: string;
 };
 
-export const LiBtn: React.FC<PropsType> = ({ children, link, pointer, blank, title }) => {
+export const LiBtn: React.FC<PropsType> = ({ children, title }) => {
   return (
-    <a
-      rel="noreferrer"
+    <div
       className={css.a}
       title={title}
-      style={pointer ? { cursor: 'pointer' } : { cursor: 'default' }}
-      href={link}
-      target={blank ? '_blank' : ''}
     >
-      <li style={pointer ? { cursor: 'pointer' } : { cursor: 'default' }} className={css.link}>
+      <span  className={css.link}>
         {children}
-      </li>
-    </a>
+      </span>
+    </div>
   );
 };

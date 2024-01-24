@@ -14,9 +14,10 @@ export type PropsType = {
     title: string
     description: string
   }
+  children: ReactNode
 }
 
-export const Kwork: React.FC<PropsType> = ({card}) => {
+export const Kwork: React.FC<PropsType> = ({card, children}) => {
 
   return (
     <div className={css.kworkcontainer}>
@@ -24,8 +25,8 @@ export const Kwork: React.FC<PropsType> = ({card}) => {
         <BgText children={''}/>
       </div>
       <div className={css.content}>
-        <Description   card={card}/>
-        <Blocks children={''}/>
+        <Description card={card} children={children}/>
+        {/*<Blocks children={''}/>*/}
       </div>
     </div>
   )
