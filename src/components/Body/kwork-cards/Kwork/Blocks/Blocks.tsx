@@ -18,12 +18,12 @@ export const Blocks: React.FC<PropsType> = ({}) => {
 
     <div className={css.bodyBlock}>
       <ul>
-        <li style={listItemStyle6}><a href="#"><span><FaWordpress/></span>WordPress</a></li>
-        <li style={listItemStyle5}><a href="#"><span><FaReact/></span>ReactJS</a></li>
-        <li style={listItemStyle4}><a href="#"><span><FaHtml5 /></span>HTML/CSS/JS</a></li>
-        <li style={listItemStyle3}><a href="#"><span><IoIosSpeedometer /></span>SiteOptimize</a></li>
+        <li style={listItemStyle6}><a href="#"><span><FaWordpress/></span>WP</a></li>
+        <li style={listItemStyle5}><a href="#"><span><FaReact/></span>RJS</a></li>
+        <li style={listItemStyle4}><a href="#"><span><FaHtml5 /></span>HTML</a></li>
+        <li style={listItemStyle3}><a href="#"><span><IoIosSpeedometer /></span>Site</a></li>
         <li style={listItemStyle2}><a href="#"><span><FaLinux /></span>Linux</a></li>
-        <li style={listItemStyle1}><a href="#"><span><FaServer /></span>Hosting</a></li>
+        <li style={listItemStyle1}><a href="#"><span><FaServer /></span>Host</a></li>
       </ul>
     </div>
 

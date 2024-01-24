@@ -26,7 +26,7 @@ export const Kwork: React.FC<PropsType> = ({card, children}) => {
       </div>
       <div className={css.content}>
         <Description card={card} children={children}/>
-        {/*<Blocks children={''}/>*/}
+        <Blocks children={''}/>
       </div>
     </div>
   )

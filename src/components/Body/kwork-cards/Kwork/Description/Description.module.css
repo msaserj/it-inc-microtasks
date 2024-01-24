@@ -5,7 +5,8 @@
     align-items: flex-start;
     padding: 20px 20px;
     border-radius: 10px;
-    width: 410px;
+    margin: 20px;
+    width: 500px;
     /*margin-top: 40px;*/
     /*align-self: flex-start;*/
     /*height: 360px;*/
@@ -16,10 +17,10 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.33);
     transform: skewY(0deg);
-    line-height: 1.2;
-    font-size: 1.7rem;
+    line-height: 1.1;
+    font-size: 2.2rem;
     text-align: start;
-    color: #04b70a;
+    color: #04c40a;
     font-family: 'Montserrat', sans-serif;
 }
 

@@ -7,15 +7,19 @@
   width: 1920px;
   height: 226px;
   /*background: url("./code2a.jpg") no-repeat;*/
-  filter: hue-rotate(50deg) brightness(80%);
+  /*filter: hue-rotate(50deg);*/
   overflow: hidden;
 }
 .containerBlock {
   display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 8px;
   flex-wrap: wrap;
   transform: rotate(-5deg) skewX(15deg);
   width: 120%;
+  background-color: #3e3f46;
 }
 
 
@@ -27,8 +31,7 @@
   flex-wrap: nowrap;
   padding: 20px 80px;
   border-radius: 10px;
-  position: fixed;
-  /*width: 60%;*/
+  position: absolute;
   height: 120px;
   background-color: rgba(33, 36, 40, 0.5);
   backdrop-filter: blur(5px);

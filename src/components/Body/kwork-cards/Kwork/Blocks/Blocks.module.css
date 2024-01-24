@@ -5,6 +5,7 @@
     min-height: 50vh;
     opacity: 0.8;
     z-index: 12;
+    margin: 20px;
 }
 
 ul {
@@ -15,18 +16,19 @@ ul {
 ul li {
     position: relative;
     list-style: none;
-    width: 200px;
+    width: 110px;
     background: #3e3f46;
-    padding: 10px;
+    padding: 5px;
     transition: 0.5s;
     z-index: calc(1 * var(--i));
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.33);
 }
 
 ul li:hover {
-    transform: translateX(-50px);
+    transform: translateX(-30px);
     background: var(--clr);
 }
 
@@ -42,6 +44,7 @@ ul li::before {
     transform-origin: right;
     transform: skewY(45deg);
     transition: 0.5s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.33);
  }
 
 ul li:hover::before {
@@ -75,6 +78,7 @@ ul li a {
     /*text-transform: uppercase;*/
     letter-spacing: 0.05em;
     transition: 0.5s;
+    padding: 0;
 }
 
 ul li:hover a {
@@ -98,7 +102,7 @@ ul li span {
     justify-content: center;
     align-items: center;
     opacity: 0.5;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 ul li:hover span {

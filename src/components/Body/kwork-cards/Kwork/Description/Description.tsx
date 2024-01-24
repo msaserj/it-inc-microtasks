@@ -18,8 +18,9 @@ export const Description: React.FC<PropsType> = ({card, children}) => {
   return (
     <div className={css.nav}>
       <h2>{card.title}</h2>
-      <p>{card.description}</p>
-      <div style={{display: "flex", flexWrap: 'wrap', gap: '22px'}}>
+      <span style={{padding: '10px 0'}} >{card.description}</span>
+      <div style={{padding: '0', marginBottom: '10px', width: '100%', borderBottom: '1px solid rgba(255, 255, 255, 0.33)'}}></div>
+      <div style={{marginTop: '10px', display: "flex", flexWrap: 'wrap', gap: '22px'}}>
         {children}
       </div>
     </div>

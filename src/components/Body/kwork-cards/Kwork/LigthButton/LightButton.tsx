@@ -12,7 +12,7 @@ export const LightButton = (props: PropsType) => {
     alignItems: 'center',
     justifyContent: 'center',
     padding: '8px',
-    fontSize: '2.5rem',
+    fontSize: '3.3rem',
     borderRadius: '10px',
     color: props.color,
     backgroundColor: "#2f2f2f",
