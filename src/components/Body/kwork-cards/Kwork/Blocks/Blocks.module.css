@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*min-height: 50vh;*/
     opacity: 0.8;
     z-index: 12;
     margin: 20px;
@@ -74,8 +73,6 @@ ul li:hover::after {
 ul li a {
     text-decoration: none;
     color: #bdbdbd;
-    /*display: block;*/
-    /*text-transform: uppercase;*/
     letter-spacing: 0.05em;
     transition: 0.5s;
     padding: 0;
