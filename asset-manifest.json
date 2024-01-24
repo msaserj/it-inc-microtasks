@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/sandbox-microtasks/static/css/main.9de7df7b.css",
-    "main.js": "/sandbox-microtasks/static/js/main.e2abca38.js",
-    "static/media/code2a.jpg": "/sandbox-microtasks/static/media/code2a.88950280064f0431bb64.jpg",
+    "main.css": "/sandbox-microtasks/static/css/main.3eff002c.css",
+    "main.js": "/sandbox-microtasks/static/js/main.706ccd7b.js",
     "static/media/poppins-devanagari-600-italic.woff": "/sandbox-microtasks/static/media/poppins-devanagari-600-italic.008d5034ded67b1a6947.woff",
     "static/media/poppins-devanagari-400-normal.woff": "/sandbox-microtasks/static/media/poppins-devanagari-400-normal.0e11b62db931f85340d4.woff",
     "static/media/poppins-devanagari-600-normal.woff": "/sandbox-microtasks/static/media/poppins-devanagari-600-normal.ae9c1f88ace17d23e8e6.woff",
@@ -52,11 +51,11 @@
     "static/media/montserrat-vietnamese-800-italic.woff2": "/sandbox-microtasks/static/media/montserrat-vietnamese-800-italic.71e71a3220538207516f.woff2",
     "static/media/montserrat-vietnamese-400-normal.woff2": "/sandbox-microtasks/static/media/montserrat-vietnamese-400-normal.176348415471f3e062e6.woff2",
     "index.html": "/sandbox-microtasks/index.html",
-    "main.9de7df7b.css.map": "/sandbox-microtasks/static/css/main.9de7df7b.css.map",
-    "main.e2abca38.js.map": "/sandbox-microtasks/static/js/main.e2abca38.js.map"
+    "main.3eff002c.css.map": "/sandbox-microtasks/static/css/main.3eff002c.css.map",
+    "main.706ccd7b.js.map": "/sandbox-microtasks/static/js/main.706ccd7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9de7df7b.css",
-    "static/js/main.e2abca38.js"
+    "static/css/main.3eff002c.css",
+    "static/js/main.706ccd7b.js"
   ]
 }
