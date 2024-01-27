@@ -31,19 +31,23 @@ export const KworkCards = (props: PropsType) => {
   const content = {
     card1: {
       title: "Доработка и исправление вёрстки",
-      description: "WordPress"
+      description: "WordPress",
+      descriptionColor: '#28c2c8'
     },
     card2: {
       title: "Доработка и исправление вёрстки",
-      description: "HTML/CSS/JS"
+      description: "HTML/CSS/JS",
+      descriptionColor: '#04c40a'
     },
     card3: {
       title: "Разработка сайта на React",
-      description: "React"
+      description: "React",
+      descriptionColor: '#bbe16c'
     },
     card4: {
       title: "Верстка сайта по макету Figma",
-      description: "HTML/SCSS/JS/Figma"
+      description: "HTML/SCSS/JS/Figma",
+      descriptionColor: '#fff'
     }
   }
 

@@ -13,6 +13,7 @@ export type PropsType = {
   card: {
     title: string
     description: string
+    descriptionColor: string
   }
   children: ReactNode
 }
